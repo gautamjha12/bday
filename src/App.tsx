@@ -77,15 +77,17 @@ const BACKGROUND_FADE_START = Math.max(
 );
 
 const TYPED_LINES = [
-  "> janavi",
+  "> sinja",
   "...",
-  "> you have always been a good girl (some exceptions though😂)",
+  "> my finnish baddie, a very happy birthday 👑❤️",
   "...",
-  "> so i made you this computer program",
+  "> i made you this computer program",
   "...",
-  "> baddie energy",
+  "> blow the candles and see the images",
   "...",
-  " 💅👑😎🖤💄👠✨😏🌟🔥❤️"
+  " you know your Goat doesnt miss!!!",
+  "...",
+  "💅👑😎🖤💄👠✨😏🌟🔥❤️"
 ];
 const TYPED_CHAR_DELAY = 100;
 const POST_TYPING_SCENE_DELAY = 1000;
@@ -369,7 +371,7 @@ function EnvironmentBackgroundController({
 
 
 export default function App() {
-  const [hasStarted, setHasStarted] = useState(false);
+  const [hasStarted, setHasStarted] = useState(true);
   const [backgroundOpacity, setBackgroundOpacity] = useState(1);
   const [environmentProgress, setEnvironmentProgress] = useState(0);
   const [currentLineIndex, setCurrentLineIndex] = useState(0);
